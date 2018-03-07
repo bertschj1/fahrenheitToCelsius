@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Convert to Celcius</title>
+
+	<script type="text/javascript">
+		function convert(){
+		let C = document.getElementById("number").value;
+		let F = C * 9/5 + 32;
+		console.log(F);
+		document.getElementById("post").innerHTML = F + " degrees Fahrenheit";
+
+
+		}
+
+
+
+
+
+	</script>
+</head>
+<body>
+	<input id="number" placeholder="Celcius Number">
+	<button onClick="convert()">Convert</button>
+	<p id="post"></p>
+
+</body>
+</html>
